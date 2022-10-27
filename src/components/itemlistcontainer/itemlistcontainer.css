@@ -1,0 +1,11 @@
+.itemlist-container {
+  margin: auto;
+  display: flex;
+  border: 2px black solid;
+  height: 300px;
+  width: 1200px;
+  justify-content: center;
+  background-color: lightgreen;
+  align-items: center;
+  
+}
