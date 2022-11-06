@@ -8,8 +8,8 @@ export const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-        <img src="../../../img/QTV_Logo.png" height={50} className="logo-img" />
-        Quiero Tenerte Verde
+          <img src="../../../img/QTV_Logo.png" height={50} className="logo-img" />
+          Quiero Tenerte Verde
         </a>
         <button
           className="navbar-toggler"
@@ -29,17 +29,16 @@ export const Navbar = () => {
                 Inicio
               </a>
             </li>
-            
 
             <li className="nav-item">
-              <a className = "nav-link " href="#">
+              <a className="nav-link " href="#">
                 Nosotros
               </a>
             </li>
             <DropDown />
           </ul>
-<CardWidget/>
-          
+          <CardWidget />
+
           <FormBusqueda busqueda={"Buscar productos"} />
         </div>
       </div>
